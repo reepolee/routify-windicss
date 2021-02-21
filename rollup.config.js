@@ -27,7 +27,10 @@ export default {
     svelte({
       dev: !production,
       preprocess: require("svelte-windicss-preprocess").preprocess({
-        config: "tailwind.config.js", // tailwind config file path (optional)
+        // config: 'tailwind.config.js', // tailwind config file path (optional)
+        debug: true,
+        verbose: true,
+        silent: false,
         compile: true, // false: interpretation mode; true: compilation mode
         prefix: "windi-", // set compilation mode style prefix
         globalPreflight: true, // set preflight style is global or scoped

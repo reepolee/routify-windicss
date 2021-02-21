@@ -1,6 +1,6 @@
 # routify-windicss
 
-WIP, reload with nollup sometimes messes up the classes
+WIP, using Rollup & Nollup
 
 # install
 
